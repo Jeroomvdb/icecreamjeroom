@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="pages">
+            <div class="page one">
+                <h1>Do you want an ice cream?</h1>
+                <div>
+                    <button onclick="slide('next')">Yes!</button>
+                </div>
+            </div>
+            <div class="page two">
+                <h1>Do you want a cup or a scone?</h1>
+                <div>
+                    <button onclick="slide('next')" onclick="displayflavorcup();">Cup (max 4 scoops)</button>
+                    <button onclick="slide('next')">Scone (max 3 scoops)</button>
+                </div>
+                <div>
+                    <button onclick="slide('prev')">Go back</button>
+                </div>
+            </div>
+            <div class="page three">
+                <h1>Choose your favorite flavors!</h1>
+                <div>
+                    <form>
+                        <select>
+                            <option value="vanilla">Vanilla</option>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="strawberry">Strawberry</option>
+                        </select>
+                    </form>
+                    <form>
+                        <select>
+                            <option value="vanilla">Vanilla</option>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="strawberry">Strawberry</option>
+                        </select>
+                    </form>
+                    <form>
+                        <select>
+                            <option value="vanilla">Vanilla</option>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="strawberry">Strawberry</option>
+                        </select>
+                    </form>
+                    <form class="flavorcup">
+                        <select>
+                            <option value="vanilla">Vanilla</option>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="strawberry">Strawberry</option>
+                        </select>
+                    </form>
+                </div>
+                <div>
+                    <button onclick="slide('prev')">Prev</button>
+                    <button onclick="slide('next')">Next</button>
+                </div>
+            </div>
+            <div class="page four">
+                <h1>Eat fast! Don't let it melt!</h1>
+                <div>
+                    <button onclick="slide('prev')">Prev</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

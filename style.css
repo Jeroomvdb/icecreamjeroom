@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pages{
+    display: flex;
+    width: 400%;
+    box-sizing: border-box;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 1s;
+}
+
+.one{
+    background-color: #FFACAC;
+}
+
+.two{
+    background-color: #FFBFA9;
+}
+
+.three{
+    background-color: #FFEBB4;
+}
+
+.four{
+    background-color: #FBFFB1;
+}
+
+button{
+    height: 80px;
+    width: 100px;
+}
+
+select{
+    height: 80px;
+    width: 200px;
+}
+
+.flavorcup{
+    display:none;
+}
