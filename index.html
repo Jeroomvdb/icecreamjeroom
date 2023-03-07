@@ -21,7 +21,7 @@
             <div class="page two">
                 <h1>Do you want a cup or a scone?</h1>
                 <div>
-                    <button onclick="slide('next')" onclick="displayflavorcup();">Cup (max 4 scoops)</button>
+                    <button onclick="slide('next') ; displayflavorcup();">Cup (max 4 scoops)</button>
                     <button onclick="slide('next')">Scone (max 3 scoops)</button>
                 </div>
                 <div>
@@ -61,7 +61,7 @@
                     </form>
                 </div>
                 <div>
-                    <button onclick="slide('prev')">Prev</button>
+                    <button onclick="slide('prev') ; nodisplayflavorcup();">Prev</button>
                     <button onclick="slide('next')">Next</button>
                 </div>
             </div>
